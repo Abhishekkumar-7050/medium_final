@@ -1,5 +1,6 @@
 import { Avatar } from "./BlogCard"
 import { Link } from "react-router-dom"
+import { CgProfile } from "react-icons/cg";
 
 export const Appbar = () => {
     return <div className="border-b flex justify-between px-10 py-4">
@@ -12,6 +13,7 @@ export const Appbar = () => {
             </Link>
 
             <Avatar size={"big"} name="Abhishek" />
+            {/* <CgProfile /> */}
         </div>
     </div>
 }
