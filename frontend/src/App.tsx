@@ -17,7 +17,7 @@ const Auth = () => {
   const navigate = useNavigate();
 
   const isLoggedIn = () => {
-      const token = localStorage.getItem('jwt'); // Adjust according to your storage method
+      const token = localStorage.getItem('token'); // Adjust according to your storage method
       return token !== null;
   };
 
